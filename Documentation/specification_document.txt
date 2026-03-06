@@ -1,0 +1,78 @@
+Application : TodoList Java
+1.1 Contexte
+
+L’objectif du projet est de développer une application de gestion de tâches (To-Do List) permettant à un utilisateur d’ajouter, consulter, modifier et marquer des tâches comme terminées.
+
+Cette application est développée dans le but de :
+
+pratiquer les bases du langage Java
+
+manipuler les structures de données
+
+comprendre la programmation orientée objet
+
+gérer la lecture et l’écriture de fichiers
+
+L’application fonctionnera dans le terminal (console) et les tâches seront sauvegardées dans un fichier local.
+
+
+1.2 Objectifs du projet
+
+Objectif principal:
+Créer une application Java permettant de gérer une liste de tâches persistante.
+
+Fonctionnalités attendues
+
+* Gestion des tâches
+
+L’utilisateur doit pouvoir :
+
+- Ajouter une tâche
+
+Chaque tâche possède(un titre ,une description ,une catégorie ,une date d’échéance ,un statut (terminée ou non))
+
+- Afficher les tâches
+
+Le système doit permettre : afficher toutes les tâches , afficher les tâches terminées , afficher les tâches non terminées ,Marquer une tâche comme terminée
+
+
+- Supprimer une tâche :Possibilité de supprimer une tâche de la liste.
+
+- Modifier une tâche:on peut modifier : le titre ,la description , la catégorie ou la date d'echeance
+
+* Gestion des catégories
+
+- Les tâches peuvent appartenir à des catégories : Travail ,Personnel ,Études ,Autres
+- Les utilisateurs peuvent creer de nouvelles categories
+- suprimmer une categorie(si des tâches utilisent cette catégorie alors  on empêche la suppression)s
+
+* Gestion des dates
+Chaque tâche peut avoir une date d’échéance(utilisation de LocalDate).
+
+* Persistance des données
+
+  Les tâches doivent être sauvegardées dans un fichier local.
+
+  Format possible
+
+  Fichier : Numero|titre|description|categorie|date_d'echeance|statut
+
+* Menu principal
+
+  Au démarrage, l'application affiche :
+
+  ===== TODO LIST =====
+
+  1 - Ajouter une tâche
+  2 - Afficher toutes les tâches
+  3 - Marquer une tâche comme terminée
+  4 - Supprimer une tâche
+  5 - Modifier une tâche
+  6 - Afficher les tâches par catégorie
+  7 -ajouter une categorie
+  8 - suprimer une categorie
+  9 - afficher toutes les categories
+  10 - Quitter
+
+* Contraintes techniques
+  Langage : Java
