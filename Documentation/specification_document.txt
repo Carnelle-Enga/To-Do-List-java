@@ -1,3 +1,129 @@
+
+English version
+
+
+
+Application: Java Todo List
+
+1.1 Context
+
+The objective of this project is to develop a task management application (To-Do List) that allows a user to add, view, modify, and mark tasks as completed.
+
+This application is developed with the goal of:
+
+practicing the basics of the Java language
+
+manipulating data structures
+
+understanding object-oriented programming
+
+managing file reading and writing
+
+The application will run in the terminal (console) and tasks will be saved in a local file.
+
+1.2 Project Objectives
+Main Objective
+
+Create a Java application that allows users to manage a persistent task list.
+
+Expected Features
+Task Management
+
+The user must be able to:
+
+Add a Task
+
+Each task contains:
+
+a title
+
+a description
+
+a category
+
+a due date
+
+a status (completed or not)
+
+Display Tasks
+
+The system must allow the user to:
+
+display all tasks
+
+display completed tasks
+
+display non-completed tasks
+
+mark a task as completed
+
+Delete a Task
+
+The user must be able to delete a task from the list.
+
+Modify a Task
+
+The user must be able to modify:
+
+the title
+
+the description
+
+the category
+
+the due date
+
+Category Management
+
+Tasks can belong to categories such as:
+Work, Personal, Studies, Others
+
+Users can create new categories
+
+Users can delete a category
+(If tasks are using that category, deletion must be prevented.)
+
+Date Management
+
+Each task can have a due date (using LocalDate).
+
+Data Persistence
+
+Tasks must be saved in a local file.
+
+Possible Format
+
+File format:
+
+Number|title|description|category|due_date|status
+Main Menu
+
+When the application starts, it displays:
+
+===== TODO LIST =====
+
+1 - Add a task
+2 - Display all tasks
+3 - Mark a task as completed
+4 - Delete a task
+5 - Modify a task
+6 - Display tasks by category
+7 - Add a category
+8 - Delete a category
+9 - Display all categories
+10 - Exit
+
+
+Technical Constraints
+
+Programming Language: Java
+
+
+
+
+
+French version
+
 Application : TodoList Java
 1.1 Contexte
 
