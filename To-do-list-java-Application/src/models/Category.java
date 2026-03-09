@@ -1,25 +1,18 @@
 package models;
 
+import utils.IdGenerator;
+
 public class Category {
-    private static int count =0 ;
     private final int id;
     private String title;
     private String description;
 
     public Category( String title, String description) {
-        this.id = getCount();
-        count++;
+        this.id = IdGenerator.generateTaskId();
         this.title = title;
         this.description = description;
     }
 
-    public static int getCount() {
-        return count;
-    }
-
-    public static void setCount(int count) {
-        Category.count = count;
-    }
 
     public String getTitle() {
         return title;
